@@ -1,0 +1,26 @@
+{
+  "name": "bookinguru",
+  "version": "1.0.0",
+  "description": "Implement a backend service that will integrate data from an external API and return processed results according to specific business rules.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranoysebastian/bookinguru.git"
+  },
+  "author": "Pranoy Sebastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranoysebastian/bookinguru/issues"
+  },
+  "homepage": "https://github.com/pranoysebastian/bookinguru#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
